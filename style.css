@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.dela-gothic-one-regular {
+    font-family: "Dela Gothic One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    background-color: #faf9d1;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 50px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+
+#menu {
+    list-style: none;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    color: #fd1b1b;
+    margin: 0;
+    padding: 1px 0px 1px 10px;
+    font-family: "Dela Gothic One", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 5px dotted tomato;
+}
+
+
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    color: #33ff00;
+    font-size: 14px;
+    font-family: hiragino maru gothic pro;
+}
+
+.header {
+    background-color: #754b4b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.list1 li {
+    /* background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;*/
+    line-height: 2;
+}
+
+#suki1 {
+    background-color: #f0f0f0;
+    padding: 50px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    line-height: 3;
+}
+
+#suki2 {
+    background-color: #eed276;
+    padding: 50px;
+    margin: 10px 100px 10px 100px;
+    margin-bottom: 10px;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    line-height: 2;
+}
+
+.table {
+    background-color: #eed276;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+    border-collapse: collapse;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+    /*width: 100%;*/
+}
+
+.title3 {
+    font-size: 20px;
+    background-color: #ece4c9;
+    padding: 10px;
+    margin: 2px 80% 5px 0px;
+    border-collapse: collapse;
+    border: 0.5px solid #ccc;
+    border-radius: 5px;
+}
+
+.table1 {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    /*width: 100%;*/
+}
+
+
+.list2 {
+    list-style: none;
+}
+
+.list2 li{
+    padding-left: 2.5vw;
+    background: url('image/list_neko.png') left 0px top 1.4vw no-repeat;
+    background-size: 1.5vw;
+    font-size: 1.5vw;
+}
+
+.class1 {
+    font-size: 1.5vw;
+    color: #ff0000;
+}
+
+.item   {
+    font-size: 1.5vw;
+    color: #ff0000;
+    background : #ee8080;
+    color: #fff;
+    margin: 1vw;
+    padding: 1vw;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}

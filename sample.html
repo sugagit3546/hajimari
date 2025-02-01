@@ -1,13 +1,112 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>猫の実態</title>
-        <meta name="description" content="猫の好きなもの、日々の生活をご紹介">
-    </head>
 
-    <body>
-        <h1>猫の一日</h1>
-        <p>猫は一日の大半を寝て過ごします。</p> 
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>猫の実態</title>
+    <meta name="description" content="猫の好きなもの、日々の生活をご紹介">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1><a href="sample.html">猫の1日</a></h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="sample.html">猫の好きなもの</a></li>
+                <li><a href="sample2.html">猫の生活</a></li>
+            </ul>
+        </nav>
+        <div id="logo">
+            <p>猫は一日の大半を寝て過ごします。</p>
+        </div>
+        <div id="setumei">
+            <p>猫は夜行性です。夜になると活動を始めます。</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="suki1">
+            <h2>猫の好きなもの</h2>
+            <p>猫は魚が好きです。</p>
+            <img src="/image/neko.jpg" alt="猫の画像" width="300" height="200">
+            今すぐ<a href="https://www.google.com/">Google</a>で検索！
+            <h3>猫の好きなものリスト</h3>
+            <ul class="list1">
+                <li style="line-height: 5">魚</li>
+                <li>猫草</li>
+                <li>猫じゃらし</li>
+            </ul>
+            <h3>猫の好きなものランキング</h3>
+            <ol class="list2">
+                <li>魚</li>
+                <li>猫草</li>
+                <li>猫じゃらし</li>
+            </ol>
+            <div class="table">
+                <h3 class="title3">猫の生活</h3>
+                <div class="table2">
+                    <table border="5" class="table1">
+                        <tr>
+                            <th>朝</th>
+                            <th>昼</th>
+                            <th colspan="2">夜</th>
+                        </tr>
+                        <tr>
+                            <td>寝る</td>
+                            <td>寝る</td>
+                            <td>活動</td>
+                            <td>ご飯</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="suki2">
+            <form action="sample.php" method="post" name="form1">
+                <label for="name">名前：</label>
+                <input type="text" name="name" id="name" placeholder="名前を入力してください">
+                <input type="image" src="image/sousin.png" alt="送信" width="50" height="25"><br>
+                <input type="search" name="search" id="search" placeholder="検索"><br>
+                <input type="email" name="email" id="email" placeholder="メールアドレス"><br>
+                <input type="tel" name="tel" id="tel" placeholder="電話番号"><br>
+                <input type="url" name="url" id="url" placeholder="URL"><br>
+
+                <input type="radio" name="radio" value="1" id="radio1"><label for="radio1">1</label>
+                <input type="radio" name="radio" value="2" id="radio2"><label for="radio2">2</label>
+                <input type="radio" name="radio" value="3" id="radio3"><label for="radio3">3</label>
+                <br>
+
+                <input type="checkbox" name="checkbox1" value="1" id="checkbox1"><label for="checkbox1">1</label>
+                <input type="checkbox" name="checkbox2" value="2" id="checkbox2"><label for="checkbox2">2</label>
+                <input type="checkbox" name="checkbox3" value="3" id="checkbox3"><label for="checkbox3">3</label>
+                <br>
+
+
+
+                <select name="select" id="select">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="-" selected>-</option>
+                </select>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>猫の一日</p>
+        <p>
+            <a href="https://www.google.com/">
+                <img src="/image/google.png" alt="Googleのロゴ" width="100" height="50"></a>
+        </p>
+        <a href="mailto:mmmmmmm.gmail.com">お問い合わせ</a>はこちら
+    </footer>
+
+</body>
+
 </html>
